@@ -1,0 +1,4 @@
+#!/bin/bash
+current_dir=$(pwd)
+cd $current_dir
+make clean && make --jobs=100 && bin/main
